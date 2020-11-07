@@ -1,8 +1,10 @@
+# NLP Stock Analysis
+## Project Overview
 This project is a continuation of the [Lazy Prices](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1658471) paper published by Lauren Cohen of HBS which speculated that a magnitude of changes in the content of a company's quarterly filing would indicate that their stock is likely to drop.
 
 This is based on the theory that companies are reporting the bare minimum required by the SEC, that any changes would more likely than not be to disclose risk to stakeholders and that one could make a profitable trading strategy by shorting companies whose quarterly filings change substantially compared to their typical reporting pattern.
 
-The following steps were taken to generate the data required for testing Cohen's hypothesis: 
+## The following steps were taken to generate the data required for testing Cohen's hypothesis: 
 
 `notebook_474_zipline.ipynb` was used for:
 - download list of tickers from NASDAQ, NYSE, AMEX and the corresponding ciks (SEC labels for tickers)
