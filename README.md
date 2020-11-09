@@ -17,3 +17,10 @@ This is based on the theory that companies are reporting the bare minimum requir
 - adding the dates to the to the scores
 - generating a list of ciks/tickers/scores/date ranges
 - create final_ciks.txt containing ciks worth looking into for further analysis
+
+## Additional exploratory data analysis:
+
+`topic_modeling.ipynb` was used for:
+- aggregating all the 10ks
+- cleaning/lemmatizing the documents
+- topic modeling using LDA
