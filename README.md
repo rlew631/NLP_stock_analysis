@@ -6,13 +6,13 @@ This is based on the theory that companies are reporting the bare minimum requir
 
 ## The following steps were taken to generate the data required for testing Cohen's hypothesis: 
 
-`notebook_474_zipline.ipynb` was used for:
+`scrape_and_score.ipynb` was used for:
 - download list of tickers from NASDAQ, NYSE, AMEX and the corresponding ciks (SEC labels for tickers)
 - scrape the data from the SEC(only the 10ks were downloaded for this project)
 - preprocess: HTMLs to txt
 - get cos similarity and jaccard scores
 
-`final_10k_data.ipynb` was used for:
+`process_scores.ipynb` was used for:
 - searching the 10k folders to see which ciks where processed from our stock list
 - adding the dates to the to the scores
 - generating a list of ciks/tickers/scores/date ranges
